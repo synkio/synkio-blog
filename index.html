@@ -1,0 +1,18 @@
+---
+layout: default
+title: Synkio Blog
+---
+
+<ul class="posts">
+	{% for post in site.posts %}
+		<li>
+			<a href="{{ post.url }}">{{ post.title }}</a>
+			<img src="/images/who/{{ post.who }}.png" height="24">
+			{{ post.author }}
+			<span>
+				&middot;
+				{{ post.date | date_to_string }}
+			</span>
+		</li>
+	{% endfor %}
+</ul>
