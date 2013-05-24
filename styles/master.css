@@ -503,6 +503,10 @@ header .main {
   color: #949392;
 }
 @media screen and (max-width: 480px) {
+  header .logo span {
+    background-image: url("/images/logo@2x.png");
+    background-size: 80px 35px;
+  }
   .wrap {
     width: auto;
     margin: 0;
