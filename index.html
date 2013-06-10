@@ -8,7 +8,13 @@ title: Synkio Blog
 		<li>
 			<a href="{{ post.url }}">{{ post.title }}</a>
 			<img src="/images/who/{{ post.who }}.png" height="24">
-			{{ post.author }}
+			{% if post.who == 'vince' %}
+				Vince Lynch
+			{% elsif page.who == 'john' %}
+				John Martin
+			{% elsif page.who == 'ben' %}
+				Ben Perreau
+			{% endif %}
 			<span>
 				&middot;
 				{{ post.date | date_to_string }}
