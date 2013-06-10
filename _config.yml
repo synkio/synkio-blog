@@ -20,7 +20,7 @@ prose:
       - name: "who"
         field:
           element: "select"
-          label: "who"
+          label: "Who is this?"
           placeholder: "Select an author"
           options:
             - name: "Vince Lynch"
