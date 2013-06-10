@@ -1,3 +1,37 @@
 safe: true
 lsi: false
 pygments: true
+
+prose:
+  rooturl: "_posts"
+  siteurl: "http://blog.synk.io/"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value:
+            - "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          value: "Insert your title here"
+      - name: "who"
+        field:
+          element: "select"
+          label: "who"
+          placeholder: "Select an author"
+          options:
+            - name: "Vince Lynch"
+              value: "vince"
+            - name: "John Martin"
+              value: "john"
+            - name: "Ben Perreau"
+              value: "ben"
+          selected: ""
+      - name: "bio"
+        field:
+          element: "text"
+          label: "Bio"
+          value: "Insert your snippet here"
