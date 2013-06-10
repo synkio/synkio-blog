@@ -1,7 +1,6 @@
 ---
 published: true
-layout: 
-  - post
+layout: post
 title: Introducing Synkio
 who: john
 bio: Insert your snippet here
