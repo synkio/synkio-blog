@@ -29,8 +29,16 @@
 		</div>
 		<div class="secondary author">
 			<img src="/images/who/{{ page.who }}.png" width="120">
-			<h3>{{ page.author }}</h3>
-			<p>{{ page.bio }}</p>
+			{% if page.who == 'vince' %}
+				<h3>Vince Lynch</h3>
+			{% elsif page.who == 'john' %}
+				<h3>John Martin</h3>
+			{% elsif page.who == 'ben' %}
+				<h3>Ben Perreau</h3>
+			{% endif %}
+			{% if page.bio %}
+				<p>{{ page.bio }}</p>
+			{% endif %}
 			<p>Posted: <strong>{{ page.date | date_to_string }}</strong></p>
 		</div>
 	</div>
