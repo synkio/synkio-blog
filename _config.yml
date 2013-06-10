@@ -5,6 +5,7 @@ pygments: true
 prose:
   rooturl: "_posts"
   siteurl: "http://blog.synk.io/"
+  media: "media"
   metadata:
     _posts:
       - name: "layout"
