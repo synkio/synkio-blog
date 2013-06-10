@@ -40,6 +40,13 @@
 				<p>{{ page.bio }}</p>
 			{% endif %}
 			<p>Posted: <strong>{{ page.date | date_to_string }}</strong></p>
+			<div>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-via="Synkio">Tweet</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</div>
+			<div>
+				<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fblog.synk.io{{ page.url | cgi_escape }}&amp;send=false&amp;layout=button_count&amp;width=180&amp;show_faces=true&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:180px; height:21px;" allowTransparency="true"></iframe>
+			</div>
 		</div>
 	</div>
 	<div class="wrap">
