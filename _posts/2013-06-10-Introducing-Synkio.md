@@ -1,3 +1,11 @@
+---
+layout: post
+title: Introducing Synkio
+who: vince
+author: Vince Lynch
+bio: 
+---
+
 Music is inherently made by humans, for humans - it's difficult to catalogue it with machines. 
 
 Right now, all around the world, there are babies in strollers shaking their chubby little arms and legs like double jointed starfish to tiny speakers spitting out the hits of today. 
