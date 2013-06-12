@@ -2,9 +2,9 @@
 published: true
 layout: post
 title: Introducing Synkio
+allow_comments: "true"
 who: vince
 bio: Vince helps make Synkio
-allow_comments: false
 ---
 
 Music is inherently made by humans, for humans - it's difficult to catalogue it with machines<!--excerpt-->. 
