@@ -515,7 +515,10 @@ footer a {
 .comments {
   margin: 40px 0;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 820px) {
+  body {
+    background-image: none;
+  }
   header .logo span {
     background-image: url("/images/logo@2x.png");
     background-size: 80px 35px;
