@@ -6,7 +6,7 @@ who: vince
 bio: Vince helps make Synkio
 ---
 
-Music is inherently made by humans, for humans - it's difficult to catalogue it with machines. 
+Music is inherently made by humans, for humans - it's difficult to catalogue it with machines<!--excerpt-->. 
 
 Right now, all around the world, there are babies in strollers shaking their chubby little arms and legs like double jointed starfish to tiny speakers spitting out the hits of today. 
 

@@ -6,7 +6,12 @@ body {
 	font-family: @font-sans-serif;
 	font-size: @font-size;
 	line-height: 1.5;
-	background: @bg;
+	background: @bg url(/images/bg.png) 50% 50% repeat-y;
+	overflow-y: scroll;
+}
+
+h1 {
+	margin-bottom: 10px;
 }
 
 a {
@@ -33,10 +38,6 @@ h2 {
 	.center-block();
 	.clearfix();
 	width: @site-width;
-}
-
-body {
-	overflow-y: scroll;
 }
 
 header {
@@ -107,7 +108,7 @@ header {
 	li {
 		padding: 0;
 		margin: 0 0 @unit 0;
-		a {
+		a.title {
 			display: block;
 			font-size: @font-size-h1;
 			font-family: @font-serif;
@@ -119,6 +120,16 @@ header {
 		span {
 			color: mix(@text, @bg, 40%);
 		}
+	}
+}
+
+footer {
+	color: mix(@text, @bg, 60%);
+	.wrap {
+		margin: (@unit*2) auto;
+	}
+	a {
+		color: mix(@text, @bg, 80%);
 	}
 }
 

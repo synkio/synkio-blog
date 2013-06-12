@@ -367,7 +367,11 @@ body {
   font-family: "Helverica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background: #f6f5f4;
+  background: #f6f5f4 url(/images/bg.png) 50% 50% repeat-y;
+  overflow-y: scroll;
+}
+h1 {
+  margin-bottom: 10px;
 }
 a {
   color: #8232c8;
@@ -412,9 +416,6 @@ h2 {
 }
 .wrap:after {
   clear: both;
-}
-body {
-  overflow-y: scroll;
 }
 header {
   background-color: #8232c8;
@@ -490,7 +491,7 @@ header .main {
   padding: 0;
   margin: 0 0 20px 0;
 }
-.posts li a {
+.posts li a.title {
   display: block;
   font-size: 36px;
   font-family: "adelle", Georgia, serif;
@@ -501,6 +502,15 @@ header .main {
 }
 .posts li span {
   color: #949392;
+}
+footer {
+  color: #626262;
+}
+footer .wrap {
+  margin: 40px auto;
+}
+footer a {
+  color: #313131;
 }
 @media screen and (max-width: 480px) {
   header .logo span {
@@ -529,8 +539,11 @@ header .main {
   #content .wrap img {
     max-width: 100%;
   }
+  footer .wrap {
+    padding: 0 20px;
+  }
   .primary h1,
-  .posts li a {
+  .posts li a.title {
     font-size: 24px;
   }
 }

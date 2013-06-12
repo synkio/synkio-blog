@@ -6,19 +6,23 @@ title: Synkio Blog
 <ul class="posts">
 	{% for post in site.posts %}
 		<li>
-			<a href="{{ post.url }}">{{ post.title }}</a>
-			<img src="/images/who/{{ post.who }}.png" height="24">
-			{% if post.who == 'vince' %}
-				Vince Lynch
-			{% elsif post.who == 'john' %}
-				John Martin
-			{% elsif post.who == 'ben' %}
-				Ben Perreau
-			{% endif %}
-			<span>
-				&middot;
-				{{ post.date | date_to_string }}
-			</span>
+			<a class="title" href="{{ post.url }}">{{ post.title }}</a>
+			{{ post.content | strip_newlines | split:'<!--excerpt-->' | first }}
+			... <a href="{{ post.url }}">read more &rarr;</a>
+			<p>
+				<img src="/images/who/{{ post.who }}.png" height="24">
+				{% if post.who == 'vince' %}
+					Vince Lynch
+				{% elsif post.who == 'john' %}
+					John Martin
+				{% elsif post.who == 'ben' %}
+					Ben Perreau
+				{% endif %}
+				<span>
+					&middot;
+					{{ post.date | date_to_string }}
+				</span>
+			</p>
 		</li>
 	{% endfor %}
 </ul>
