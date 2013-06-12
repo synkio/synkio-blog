@@ -18,6 +18,16 @@ prose:
           element: "text"
           label: "Post title"
           value: "Insert your title here"
+      - name: "allow_comments"
+        field:
+          element: "select"
+          label: "Allow comments?"
+          options:
+            - name: "Yes"
+              value: true
+            - name: "No"
+              value: false
+          selected: true
       - name: "who"
         field:
           element: "select"
