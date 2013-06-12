@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Introducing Synkio
-allow_comments: "true"
+allow_comments: "false"
 who: vince
 bio: Vince helps make Synkio
 ---
