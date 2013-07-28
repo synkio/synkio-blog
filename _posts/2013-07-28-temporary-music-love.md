@@ -1,13 +1,15 @@
 ---
 published: true
-title: Making sure your temporary music choice stays temporary by using the Synkio community.
+title: Temporary Music Love
 layout: post
 allow_comments: "true"
 who: vince
 bio: Vince helps make Synkio
 ---
 
-Temp love. Temporary Love. We should know better. The clue is in the name, it's 'Temporary...'<!--excerpt-->
+Making sure your temporary music choice stays temporary by using the Synkio community.<!--excerpt-->
+
+Temp love. Temporary Love. We should know better. The clue is in the name, it's 'Temporary...'
 
 Early in a production, you use a temporary piece of music to help shape your visual edit. You start with a song that has worked in the past, or just something that is readily available and feels like it fits the mood of the shot. It's a band-aid that holds together the production as you move closer to a final edit and search for the music that you'll eventually use... but then, something horrible happens. You fall in love.  
 
