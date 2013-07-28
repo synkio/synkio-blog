@@ -2,12 +2,12 @@
 published: true
 title: Temporary Music Love
 layout: post
-allow_comments: "true"
+allow_comments: "false"
 who: vince
 bio: Vince helps make Synkio
 ---
 
-Making sure your temporary music choice stays temporary by using the Synkio community.<!--excerpt-->
+Making sure your temporary music choice stays temporary by using the Synkio community<!--excerpt-->.
 
 Temp love. Temporary Love. We should know better. The clue is in the name, it's 'Temporary...'
 
