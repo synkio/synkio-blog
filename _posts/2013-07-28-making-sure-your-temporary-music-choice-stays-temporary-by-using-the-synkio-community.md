@@ -1,6 +1,6 @@
 ---
 published: true
-title: ""
+title: Making sure your temporary music choice stays temporary by using the Synkio community.
 layout: post
 allow_comments: "true"
 who: vince
