@@ -11,7 +11,7 @@ Making sure your temporary music choice stays temporary by using the Synkio comm
 
 Temp love. Temporary Love. We should know better. The clue is in the name, it's 'Temporary...'
 
-Early in a production, you use a temporary piece of music to help shape your visual edit. You start with a song that has worked in the past, or just something that is readily available and feels like it fits the mood of the shot. It's a band-aid that holds together the production as you move closer to a final edit and search for the music that you'll eventually use... but then, something horrible happens. You fall in love.  
+Early in a production, you use a temporary piece of music to help shape your visual edit. You start with a song that has worked in the past, or just something that is readily available and feels like it fits the mood of the shot. It's a band-aid that holds together the production as you move closer to a final edit and search for the music that you'll eventually use... but then, something horrible happens. You fall in love.
 
 Like an inadvisable lover, the temporary music becomes a fixture in the living room and you start to cherish it. You smile as a hard edit lands on the first note of the chorus. You brim with excitement as the emotion of the backing vocals lift with your characters expression... 'I know it's lazy and obvious and way too expensive... but that drum fill really works'. You are infatuated. 
 
