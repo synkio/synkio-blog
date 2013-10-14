@@ -2,7 +2,7 @@
 published: true
 title: "Announcing our new feature: Reputation Management for the Music Community"
 layout: post
-allow_comments: "true"
+allow_comments: "false"
 who: ben
 bio: Ben loves music
 ---
@@ -23,4 +23,4 @@ This is great for both sides of the community, Music People will have the option
 
 This is just the first of our releases in the area of Reputation Management, as always we've got many more ideas which will help the music community receive more relevant briefs, and help clients understand more about a a music person's areas of expertise.
 
-Feel free to drop us a line __[humans@synk.io](humans@synk.io)__, or tell us what you think in the comments below.
+Feel free to drop us a line __[humans@synk.io](humans@synk.io)__
