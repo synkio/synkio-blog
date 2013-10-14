@@ -366,7 +366,7 @@ table {
 body {
   font-family: "Helverica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.4;
   background: #f6f5f4 url(/images/bg.png) 50% 50% repeat-y;
   overflow-y: scroll;
 }
@@ -489,13 +489,16 @@ header .main {
 }
 .posts li {
   padding: 0;
-  margin: 0 0 20px 0;
+  margin: 0 0 40px 0;
 }
 .posts li a.title {
   display: block;
-  font-size: 36px;
+  font-size: 24px;
   font-family: "adelle", Georgia, serif;
   font-weight: 400;
+}
+.posts li p {
+  margin: 10px 0;
 }
 .posts li img {
   vertical-align: -5px;

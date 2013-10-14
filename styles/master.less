@@ -5,7 +5,7 @@
 body {
 	font-family: @font-sans-serif;
 	font-size: @font-size;
-	line-height: 1.5;
+	line-height: 1.4;
 	background: @bg url(/images/bg.png) 50% 50% repeat-y;
 	overflow-y: scroll;
 }
@@ -107,12 +107,15 @@ header {
 	list-style-type: none;
 	li {
 		padding: 0;
-		margin: 0 0 @unit 0;
+		margin: 0 0 (@unit*2) 0;
 		a.title {
 			display: block;
-			font-size: @font-size-h1;
+			font-size: @font-size-h2;
 			font-family: @font-serif;
 			font-weight: 400;
+		}
+		p {
+			margin: (@unit/2) 0;
 		}
 		img {
 			vertical-align: -5px;
