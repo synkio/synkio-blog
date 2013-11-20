@@ -426,6 +426,7 @@ header .logo {
   color: #ffffff;
   text-decoration: none;
   padding-right: 15px;
+  white-space: nowrap;
 }
 header .logo span {
   font: 0/0 a;
@@ -554,5 +555,8 @@ footer a {
   .primary h1,
   .posts li a.title {
     font-size: 24px;
+  }
+  iframe {
+    max-width: 100%;
   }
 }
