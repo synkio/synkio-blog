@@ -13,7 +13,7 @@ Every so often there's a piece of work that really catches your eye. This new, '
 
 It's not that the format of the video is wildly revolutionary -  yep, it's interesting and all, but it's the content alongside the concept that really caught us. Whether it's the fictional kids cartoon 'Zoey and Socks' on the 'Just for Kids' channel, or it's 'BCC News', the combination of one of the most timeless songs of all time in combination with an array of new, almost every-day television situations creates an interesting, immersive and rewarding experience.
 
-<iframe width="580" height="300" scrolling="no" frameborder="no" src="http://content.interlude.fm/player/dylan/iframe.html?playerWidth=580&playerHeight=300">
+<iframe width="580" height="300" scrolling="no" frameborder="no" src="http://content.interlude.fm/player/dylan/iframe.html?playerWidth=580&amp;playerHeight=300">
 </iframe>
 
 I spent a good ten minutes flipping between the different channels. A nod to Columbia Records and  [Interlude](http://interlude.fm/) for a viral hit, and a tip of the leopard-skin pill-box hat to Bob Dylan for starting it all.
