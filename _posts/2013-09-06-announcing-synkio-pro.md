@@ -5,6 +5,7 @@ layout: post
 allow_comments: "false"
 who: ben
 bio: Ben loves music
+style: four
 ---
 
 We spent a long time thinking about Synkio before we began to build, maybe too long<!--excerpt-->... Songwriters and composers were agitating to start using it but the team wanted to test some things out before we went live, just to make sure we were doing the right thing. Best laid plans...

@@ -5,6 +5,7 @@ layout: post
 allow_comments: "false"
 who: vince
 bio: Vince helps make Synkio
+style: two
 ---
 
 Making sure your temporary music choice stays temporary by using the Synkio community<!--excerpt-->.

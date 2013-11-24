@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Synkio Blog</title>
+	<title>{{ page.title }} &middot; Synkio Blog</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 	<link rel="stylesheet" href="/styles/master.css">
@@ -14,26 +14,17 @@
 
 <header>
 	<div class="wrap">
-		<a href="http://synk.io" class="main">Visit synk.io &rarr;</a>
-		<span class="logo">
+		{% if page.id == 'post' %}
+			<a href="http://synk.io/" class="main">Visit synk.io &rarr;</a>
+		{% endif %}
+		<a href="/" class="logo">
 			<span>Synkio</span>
 			<strong>blog</strong>
-		</span>
+		</a>
 	</div>
 </header>
 
-<section id="content">
-	<div class="wrap">
-		<div class="primary">
-			{{ content }}
-		</div>
-		<div class="secondary">
-			<h3>What's Synkio?</h3>
-			<p>Synkio is a global network of producers, composers and artists who are ready to make music for you now</p>
-			<p><a href="http://synk.io" class="faded">Find out more &rarr;</a></p>
-		</div>
-	</div>
-</section>
+{{ content }}
 
 <footer>
 	<div class="wrap">

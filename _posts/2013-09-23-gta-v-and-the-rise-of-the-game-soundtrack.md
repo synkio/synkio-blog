@@ -5,6 +5,7 @@ layout: post
 allow_comments: "false"
 who: ben
 bio: Ben loves music
+style: five
 ---
 
 September 17th saw the release of the fastest selling console game of all time, GTA V<!--excerpt-->. With a reported budget of $265 million dollars and a marketing budget to match, the game took over $800 million in the first day, with Japan and Brazil still to launch. The game franchise has become a vast global cultural phenomenon.

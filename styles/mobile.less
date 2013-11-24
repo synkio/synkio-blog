@@ -23,11 +23,12 @@
 	}
 
 	.secondary {
-		border-top: 1px solid darken(@bg, 10%);
+		border-top: 2px dotted darken(@bg, 10%);
 		margin-top: @unit*2;
 		padding-top: @unit*2;
 	}
 
+	#post-header .wrap,
 	#content .wrap {
 		padding: @unit;
 		img {
@@ -39,8 +40,13 @@
 	}
 
 	.primary h1,
+	#post-header h1,
 	.posts li a.title {
 		font-size: 24px;
+	}
+
+	#post-header .date {
+		font-size: @font-size;
 	}
 
 	iframe {

@@ -8,6 +8,7 @@ body {
 	line-height: 1.4;
 	background: @bg url(/images/bg.png) 50% 50% repeat-y;
 	overflow-y: scroll;
+	padding-top: @header-height;
 }
 
 h1 {
@@ -34,6 +35,12 @@ h2 {
 	font-weight: 400;
 }
 
+hr {
+	border-width: 0;
+	margin: @unit 0;
+	border-top: 2px dotted darken(@bg, 10%);
+}
+
 .wrap {
 	.center-block();
 	.clearfix();
@@ -41,8 +48,12 @@ h2 {
 }
 
 header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 	background-color: @header-bg;
-	height: 42px;
+	height: @header-height;
 	.logo {
 		float: left;
 		color: @header-text;
@@ -93,6 +104,7 @@ header {
 	h3 {
 		color: mix(@text, @bg, 80%);
 		font-size: 21px;
+		margin: (@unit/2) 0;
 	}
 }
 
@@ -139,6 +151,66 @@ footer {
 
 .comments {
 	margin: (@unit*2) 0;
+}
+
+.helper {
+	border-top: 2px dotted darken(@bg, 15%);
+	margin: (@unit*2) 0;
+	padding-top: @unit;
+	// background: mix(@text, @bg, 15%);
+	color: mix(@text, @bg, 75%);
+	// color: @bg;
+}
+
+#post-header {
+	background-color: #333;
+	background-position: 50% 50%;
+	background-size: cover;
+	color: #FFF;
+	.wrap {
+		padding: (@unit*3) 0 @unit 0;
+	}
+	.date {
+		color: mix(#333, #FFF, 60%);
+		font-weight: 300;
+		font-size: @font-size * 1.3;
+	}
+	&.style-one {
+		background-color: #262a2a;
+		background-image: url("http://media.synk.io/images/homepage/city.jpg");
+		.date {
+			color: mix(#262a2a, #FFF, 40%);
+		}
+	}
+	&.style-two {
+		background-color: #1d8e77;
+		background-image: url("http://media.synk.io/images/homepage/blackboard.jpg");
+		.date {
+			color: mix(#1d8e77, #FFF, 40%);
+		}
+	}
+	&.style-three {
+		background-color: #283b4e;
+		background-image: url("http://media.synk.io/images/homepage/table.jpg");
+		.date {
+			color: mix(#283b4e, #FFF, 40%);
+		}
+	}
+	&.style-four {
+		background-color: #c64b40;
+		background-image: url("http://media.synk.io/images/homepage/board.jpg");
+		.date {
+			color: mix(#c64b40, #FFF, 40%);
+		}
+	}
+	&.style-five {
+		background-color: #3f88b6;
+		background-image: url("http://media.synk.io/images/homepage/stairs.jpg");
+		.date {
+			color: mix(#3f88b6, #FFF, 40%);
+		}
+	}
+
 }
 
 @import url("mobile.less");

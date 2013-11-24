@@ -1,31 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>{{ page.title }} &middot; Synkio Blog</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-	<link rel="stylesheet" href="/styles/master.css">
-	<link rel="icon" type="image/png" href="/favicon.png">
-	<!--[if lt IE 9]><script src="http://media.synk.io/vendor/html5shiv.js"></script><![endif]-->
-	<script src="//use.typekit.net/ayl8hmu.js"></script>
-	<script>try{Typekit.load();}catch(e){}</script>
-</head>
-<body>
+---
+layout: default
+id: post
+---
 
-<header>
+{% if page.who == 'vince' %}
+	{% assign poster_name = 'Vince Lynch' %}
+	{% assign poster_twitter = 'hypernyms' %}
+{% elsif page.who == 'ben' %}
+	{% assign poster_name = 'Ben Perreau' %}
+	{% assign poster_twitter = 'perreau' %}
+{% elsif page.who == 'john' %}
+	{% assign poster_name = 'John Martin' %}
+	{% assign poster_twitter = 'johnmartin' %}
+{% endif %}
+
+<section id="post-header" class="style-{{ page.style }}">
 	<div class="wrap">
-		<a href="http://synk.io" class="main">Visit synk.io &rarr;</a>
-		<a href="/" class="logo">
-			<span>Synkio</span>
-			<strong>blog</strong>
-		</a>
+		<h1>{{ page.title }}</h1>
+		<p class="date">{{ page.date | date_to_string }}</p>
 	</div>
-</header>
+</section>
 
 <section id="content">
 	<div class="wrap">
 		<div class="primary">
-			<h1>{{ page.title }}</h1>
 			{{ content }}
 			{% if page.allow_comments == "true" %}
 				<div class="comments">
@@ -42,20 +40,23 @@
 					<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 				</div>
 			{% endif %}
+
+			<div class="helper">
+				{% include helper.ext %}
+			</div>
+
 		</div>
 		<div class="secondary author">
+
 			<img src="/images/who/{{ page.who }}.png" width="120">
-			{% if page.who == 'vince' %}
-				<h3>Vince Lynch</h3>
-			{% elsif page.who == 'john' %}
-				<h3>John Martin</h3>
-			{% elsif page.who == 'ben' %}
-				<h3>Ben Perreau</h3>
-			{% endif %}
+			<h3>{{ poster_name }}</h3>
+			<a href="http://twitter.com/{{ poster_twitter }}" target="_blank">@{{ poster_twitter }}</a>
 			{% if page.bio %}
 				<p>{{ page.bio }}</p>
 			{% endif %}
-			<p>Posted: <strong>{{ page.date | date_to_string }}</strong></p>
+			<hr>
+
+			<h4>Share this post</h4>
 			<div>
 				<a href="https://twitter.com/share" class="twitter-share-button" data-via="Synkio">Tweet</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -63,19 +64,13 @@
 			<div>
 				<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fblog.synk.io{{ page.url | cgi_escape }}&amp;send=false&amp;layout=button_count&amp;width=180&amp;show_faces=true&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:180px; height:21px;" allowTransparency="true"></iframe>
 			</div>
+			<hr>
+
+			<h4>Synkio on the web</h4>
+			<div>
+				{% include facepile.ext %}
+			</div>
+
 		</div>
 	</div>
-	<div class="wrap">
-		<p class="clearfix"><a href="/" class="faded">&larr; Read more posts</a></p>
-	</div>
 </section>
-
-<footer>
-	<div class="wrap">
-		&copy; Synkio
-		&middot; <a href="mailto:support@synk.io">Contact us</a>
-	</div>
-</footer>
-
-</body>
-</html>

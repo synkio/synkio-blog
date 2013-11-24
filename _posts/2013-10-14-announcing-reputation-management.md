@@ -5,6 +5,7 @@ layout: post
 allow_comments: "false"
 who: ben
 bio: Ben loves music
+style: three
 ---
 
 Consistently, people at creative agencies and film makers have told us that one of the things they love about Synkio is the "quality" of the work produced by the music community<!--excerpt-->, Synkio was always supposed to be an open platform. We created it so that Music People everywhere would be able to get involved in the global licensing market, but so far - it's been a closed selection of hand-selected invitees.

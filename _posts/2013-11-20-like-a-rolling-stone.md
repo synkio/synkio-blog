@@ -5,6 +5,7 @@ layout: post
 allow_comments: "false"
 who: ben
 bio: Ben loves music
+style: five
 ---
 
 Every so often there's a piece of work that really catches your eye. This new, 'interactive' video for Bob Dylan's classic 'Like A Rolling Stone' did just that to us last night<!--excerpt-->. But it has divided opinion. Critics argue that the nature of the video is nowhere near as revolutionary as the spirit of the song, now almost 50 years old "That snare shot sounded like somebody'd kicked open the door to your mind," is how Bruce Springsteen described hearing the song for the first time at 15.
