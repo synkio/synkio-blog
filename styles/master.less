@@ -5,6 +5,7 @@
 body {
 	font-family: @font-sans-serif;
 	font-size: @font-size;
+	color: @text;
 	line-height: 1.4;
 	background: @bg url(/images/bg.png) 50% 50% repeat-y;
 	overflow-y: scroll;
@@ -16,7 +17,7 @@ h1 {
 }
 
 a {
-	color: @header-bg;
+	color: @link;
 	text-decoration: none;
 	.transition(all 0.2s ease-out);
 	&:hover {
@@ -126,6 +127,7 @@ header {
 			font-size: @font-size-h2;
 			font-family: @font-serif;
 			font-weight: 400;
+			color: @text;
 		}
 		p {
 			margin: (@unit/2) 0;
@@ -157,9 +159,7 @@ footer {
 	border-top: 2px dotted darken(@bg, 15%);
 	margin: (@unit*2) 0;
 	padding-top: @unit;
-	// background: mix(@text, @bg, 15%);
-	color: mix(@text, @bg, 75%);
-	// color: @bg;
+	color: mix(@text, @bg, 60%);
 }
 
 #post-header {
@@ -210,7 +210,13 @@ footer {
 			color: mix(#3f88b6, #FFF, 40%);
 		}
 	}
+}
 
+.pagination {
+	border-top: 2px dotted darken(@bg, 15%);
+	padding-top: (@unit*2);
+	color: mix(@bg, @text, 60%);
+	font-weight: 300p;
 }
 
 @import url("mobile.less");

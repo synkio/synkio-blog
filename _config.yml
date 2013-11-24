@@ -1,6 +1,8 @@
 safe: true
 lsi: false
 pygments: true
+paginate: 5
+paginate_path: "page:num"
 
 prose:
   rooturl: "_posts"

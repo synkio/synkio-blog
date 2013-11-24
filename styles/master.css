@@ -366,6 +366,7 @@ table {
 body {
   font-family: "Helverica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
+  color: #3c3b3a;
   line-height: 1.4;
   background: #f6f5f4 url(/images/bg.png) 50% 50% repeat-y;
   overflow-y: scroll;
@@ -375,7 +376,7 @@ h1 {
   margin-bottom: 10px;
 }
 a {
-  color: #8232c8;
+  color: #427ddd;
   text-decoration: none;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -383,7 +384,7 @@ a {
   transition: all 0.2s ease-out;
 }
 a:hover {
-  color: #000000;
+  color: #3c3b3a;
 }
 h1 {
   font-size: 36px;
@@ -482,10 +483,10 @@ header .main {
   width: 180px;
   margin-top: 20px;
   margin-left: 40px;
-  color: #626262;
+  color: #868584;
 }
 .secondary h3 {
-  color: #313131;
+  color: #61605f;
   font-size: 21px;
   margin: 10px 0;
 }
@@ -494,7 +495,7 @@ header .main {
   font-weight: 300;
 }
 .posts {
-  color: #626262;
+  color: #868584;
   margin: 24px 0;
   padding: 0;
   list-style-type: none;
@@ -508,6 +509,7 @@ header .main {
   font-size: 24px;
   font-family: "adelle", Georgia, serif;
   font-weight: 400;
+  color: #3c3b3a;
 }
 .posts li p {
   margin: 10px 0;
@@ -516,16 +518,16 @@ header .main {
   vertical-align: -5px;
 }
 .posts li span {
-  color: #949392;
+  color: #acabaa;
 }
 footer {
-  color: #626262;
+  color: #868584;
 }
 footer .wrap {
   margin: 40px auto;
 }
 footer a {
-  color: #313131;
+  color: #61605f;
 }
 .comments {
   margin: 40px 0;
@@ -534,7 +536,7 @@ footer a {
   border-top: 2px dotted #d4cfca;
   margin: 40px 0;
   padding-top: 20px;
-  color: #3e3d3d;
+  color: #868584;
 }
 #post-header {
   background-color: #333;
@@ -584,6 +586,12 @@ footer a {
 }
 #post-header.style-five .date {
   color: #b2cfe2;
+}
+.pagination {
+  border-top: 2px dotted #d4cfca;
+  padding-top: 40px;
+  color: #acabaa;
+  font-weight: 300p;
 }
 @media screen and (max-width: 820px) {
   body {

@@ -7,7 +7,7 @@ title: Get music for your project with the help of a global network of musicians
 	<div class="wrap">
 		<div class="primary">
 			<ul class="posts">
-				{% for post in site.posts %}
+				{% for post in paginator.posts %}
 					<li>
 						<a class="title" href="{{ post.url }}">{{ post.title }}</a>
 						{{ post.content | strip_newlines | split:'<!--excerpt-->' | first }}
@@ -29,6 +29,21 @@ title: Get music for your project with the help of a global network of musicians
 					</li>
 				{% endfor %}
 			</ul>
+			{% if paginator.total_pages > 1 %}
+				<p class="pagination">
+					{% if paginator.previous_page %}
+						<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous page</a>
+					{% else %}
+						<span>Previous page</span>
+					{% endif %}
+					&middot;
+					{% if paginator.next_page %}
+						<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next page</a>
+					{% else %}
+						<span>Next page</span>
+					{% endif %}
+				</p>
+			{% endif %}
 		</div>
 		<div class="secondary">
 			{% include helper.ext %}
