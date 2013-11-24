@@ -213,10 +213,16 @@ footer {
 }
 
 .pagination {
-	border-top: 2px dotted darken(@bg, 15%);
-	padding-top: (@unit*2);
 	color: mix(@bg, @text, 60%);
 	font-weight: 300p;
+}
+
+.social {
+	.clearfix;
+	.col {
+		float: left;
+		width: 50%;
+	}
 }
 
 @import url("mobile.less");

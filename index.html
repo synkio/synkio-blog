@@ -32,21 +32,29 @@ title: Get music for your project with the help of a global network of musicians
 			{% if paginator.total_pages > 1 %}
 				<p class="pagination">
 					{% if paginator.previous_page %}
-						<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous page</a>
+						<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer posts</a>
 					{% else %}
-						<span>Previous page</span>
+						<span>Newer posts</span>
 					{% endif %}
 					&middot;
 					{% if paginator.next_page %}
-						<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next page</a>
+						<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"> Older posts</a>
 					{% else %}
-						<span>Next page</span>
+						<span>Older posts</span>
 					{% endif %}
 				</p>
 			{% endif %}
 		</div>
 		<div class="secondary">
 			{% include helper.ext %}
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="wrap">
+		<div class="primary">
+			<hr>
 			{% include social.ext %}
 		</div>
 	</div>

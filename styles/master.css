@@ -588,10 +588,24 @@ footer a {
   color: #b2cfe2;
 }
 .pagination {
-  border-top: 2px dotted #d4cfca;
-  padding-top: 40px;
   color: #acabaa;
   font-weight: 300p;
+}
+.social {
+  *zoom: 1;
+}
+.social:before,
+.social:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.social:after {
+  clear: both;
+}
+.social .col {
+  float: left;
+  width: 50%;
 }
 @media screen and (max-width: 820px) {
   body {
@@ -638,5 +652,16 @@ footer a {
   }
   iframe {
     max-width: 100%;
+  }
+  .helper {
+    padding: 20px;
+    margin-bottom: 0;
+  }
+  .social {
+    padding: 20px;
+  }
+  .social .col {
+    float: none;
+    width: auto;
   }
 }
