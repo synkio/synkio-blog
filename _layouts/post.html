@@ -12,6 +12,8 @@ id: post
 {% elsif page.who == 'john' %}
 	{% assign poster_name = 'John Martin' %}
 	{% assign poster_twitter = 'johnmartin' %}
+{% elsif page.who == 'james' %}
+	{% assign poster_name = 'James Jackson' %}
 {% endif %}
 
 <section id="post-header" class="style-{{ page.style }}">
@@ -46,7 +48,9 @@ id: post
 
 			<img src="/images/who/{{ page.who }}.png" width="120">
 			<h3>{{ poster_name }}</h3>
-			<a href="http://twitter.com/{{ poster_twitter }}" target="_blank">@{{ poster_twitter }}</a>
+			{% if poster_twitter %}
+				<a href="http://twitter.com/{{ poster_twitter }}" target="_blank">@{{ poster_twitter }}</a>
+			{% endif %}
 			{% if page.bio %}
 				<p>{{ page.bio }}</p>
 			{% endif %}
