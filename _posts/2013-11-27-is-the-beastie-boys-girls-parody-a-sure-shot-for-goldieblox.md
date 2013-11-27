@@ -37,3 +37,7 @@ There has been a lot of creative effort in producing it (something which the Bea
 The advert runs at around 2 mins. Back in the 90s when '2 Live Crew' received a judgment in their favour from the Supreme Court stating that their parody of Roy Orbison’s 'Oh, Pretty Woman' (including lyrics such as "Big hairy woman you need to shave that stuff. Big hairy woman you know I bet it's tough”) was covered under a fair use exemption, the court acknowledged that although parody would need to include enough of the original work to make it recognisable, it would be unreasonable to take so much that it simply served as a "commercial substitute" so in this case there may be too much of the song used to be 'reasonable' for a parody.
 
 All these things will be for the court to weigh up and there is presently no precedent to say that a parody can’t be used for the purposes of an advertisement and similarly none to say that it can. So, while this exemption does allow for songwriters and ad agencies to think creatively about their campaigns the exemption should be used with due consideration.
+
+---
+
+_James Jackson is a musician, Synkio's in-house Director of Commercial Affairs and a Director at JL law firm_
