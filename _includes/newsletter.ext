@@ -9,10 +9,3 @@
 		</div>
 	</div>
 </form>
-<script>
-$(function() {
-	$('#newsletter').on('submit', function () {
-		$('#newsletter .complete').html('<h1>Thanks!</h1>');
-	});
-});
-</script>
