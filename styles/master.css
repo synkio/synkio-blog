@@ -478,6 +478,9 @@ header .main {
   float: left;
   width: 580px;
 }
+.primary p {
+  margin: 20px 0;
+}
 .secondary {
   float: left;
   width: 180px;
@@ -533,9 +536,7 @@ footer a {
   margin: 40px 0;
 }
 .helper {
-  border-top: 2px dotted #d4cfca;
   margin: 40px 0;
-  padding-top: 20px;
   color: #868584;
 }
 #post-header {
@@ -607,6 +608,79 @@ footer a {
   float: left;
   width: 50%;
 }
+#newsletter {
+  background-image: url(http://media.synk.io/images/payment.png);
+  padding-top: 6px;
+  margin: 40px 0;
+}
+#newsletter .inner {
+  *zoom: 1;
+  padding: 20px;
+  background-color: white;
+  color: #868584;
+  font-weight: 300;
+}
+#newsletter .inner:before,
+#newsletter .inner:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#newsletter .inner:after {
+  clear: both;
+}
+#newsletter .inner h1 {
+  color: #48a55f;
+}
+#newsletter .inner h3 {
+  margin: 0;
+  color: #61605f;
+}
+#newsletter .inner label {
+  display: none;
+}
+#newsletter .inner button,
+#newsletter .inner input {
+  float: left;
+  border-width: 0;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#newsletter .inner button {
+  width: 25%;
+  color: white;
+  background-color: #48a55f;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0 8px 0;
+  -webkit-box-shadow: 0 2px 0 #39814b;
+  -moz-box-shadow: 0 2px 0 #39814b;
+  box-shadow: 0 2px 0 #39814b;
+}
+#newsletter .inner button:hover {
+  background-color: #39814b;
+  -webkit-box-shadow: 0 2px 0 #295e36;
+  -moz-box-shadow: 0 2px 0 #295e36;
+  box-shadow: 0 2px 0 #295e36;
+}
+#newsletter .inner button:active {
+  margin-top: 1px;
+  -webkit-box-shadow: 0 1px 0 #295e36;
+  -moz-box-shadow: 0 1px 0 #295e36;
+  box-shadow: 0 1px 0 #295e36;
+}
+#newsletter .inner input {
+  width: 73%;
+  margin-right: 2%;
+  border: 1px solid #dfdcd8;
+  padding: 10px;
+}
+#newsletter .inner input:focus {
+  border-color: #427ddd;
+}
 @media screen and (max-width: 820px) {
   body {
     background-image: none;
@@ -663,5 +737,18 @@ footer a {
   .social .col {
     float: none;
     width: auto;
+  }
+  #newsletter .inner input,
+  #newsletter .inner button {
+    float: none;
+    width: auto;
+    margin: 0 0 20px 0;
+  }
+  #newsletter .inner input {
+    width: 100%;
+  }
+  #newsletter .inner button {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }

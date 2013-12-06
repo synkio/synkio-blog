@@ -1,0 +1,18 @@
+<form id="newsletter" action="http://synk.io/newsletter" method="post" target="_blank">
+	<div class="inner">
+		<h3>Get Synkio Inspiration in your inbox</h3>
+		<p>Our regular missive keeps you informed and shares the most inspiring ideas from the Synkio community</p>
+		<div class="complete">
+			<label for="subscribe-email">Your email address</label>
+			<input id="subscribe-email" name="email" type="text" placeholder="Your email address">
+			<button type="submit">Subscribe</button>
+		</div>
+	</div>
+</form>
+<script>
+$(function() {
+	$('#newsletter').on('submit', function () {
+		$('#newsletter .complete').html('<h1>Thanks!</h1>');
+	});
+});
+</script>

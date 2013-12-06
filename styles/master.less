@@ -95,7 +95,11 @@ header {
 .primary {
 	float: left;
 	width: 580px;
+	p {
+		margin: @unit 0;
+	}
 }
+
 .secondary {
 	float: left;
 	width: 180px;
@@ -156,9 +160,7 @@ footer {
 }
 
 .helper {
-	border-top: 2px dotted darken(@bg, 15%);
 	margin: (@unit*2) 0;
-	padding-top: @unit;
 	color: mix(@text, @bg, 60%);
 }
 
@@ -222,6 +224,63 @@ footer {
 	.col {
 		float: left;
 		width: 50%;
+	}
+}
+
+#newsletter {
+	background-image: url(http://media.synk.io/images/payment.png);
+	padding-top: 6px;
+	margin: (@unit*2) 0;
+	.inner {
+		.clearfix;
+		padding: @unit;
+		background-color: white;
+		color: mix(@bg, @text, 40%);
+		font-weight: 300;
+		h1 {
+			color: @action;
+		}
+		h3 {
+			margin: 0;
+			color: mix(@bg, @text, 20%);
+		}
+		label {
+			display: none;
+		}
+		button,
+		input {
+			float: left;
+			border-width: 0;
+			outline: none;
+			box-sizing: border-box;
+			.border-radius(3px);
+		}
+		button {
+			width: 25%;
+			color: white;
+			background-color: @action;
+			font-weight: bold;
+			text-align: center;
+			padding: (@unit/2) 0 ((@unit/2)-2) 0;
+			.box-shadow(0 2px 0 darken(@action, 10%));
+			&:hover {
+				background-color: darken(@action, 10%);
+				.box-shadow(0 2px 0 darken(@action, 20%));
+			}
+			&:active {
+				margin-top: 1px;
+				.box-shadow(0 1px 0 darken(@action, 20%));
+			}
+		}
+		input {
+			width: 73%;
+			margin-right: 2%;
+			border: 1px solid darken(@bg, 10%);
+			padding: (@unit/2);
+			&:focus {
+				border-color: @link;
+			}
+		}
 	}
 }
 
