@@ -10,9 +10,12 @@ style: one
 
 Nelson Mandela passed away yesterday (December 5th) at the age of 95 at his home in Houghton, a suburb of Johannesburg<!--excerpt-->.
 
-Nelson Mandela loved music, many consider music an important factor in building awareness and facilitating the pressure which resulted in the end of apartheid. Tributes have been been flowing in from around the music world, here are some of the tweets, and some of the best performances, in tribute to the great Mandela.
+![](/images/posts/2013-12-06-nelson-mandela-head.jpg)
 
 ![](/images/posts/2013-12-06-nelson-mandela.jpg)
+_Mandela's election victory rally - 1994_
+
+Nelson Mandela loved music, many consider music an important factor in building awareness and facilitating the pressure which resulted in the end of apartheid. Tributes have been been flowing in from around the music world, here are some of the tweets, and some of the best performances, in tribute to the great Mandela.
 
 ### Rihanna
 <blockquote class="twitter-tweet" lang="en"><p>One of the greatest men who&#39;s ever lived!!! <a href="https://twitter.com/search?q=%23Legend&amp;src=hash">#Legend</a> We will never forget the things this man has… <a href="http://t.co/ztPkooNOIN">http://t.co/ztPkooNOIN</a></p>&mdash; Rihanna (@rihanna) <a href="https://twitter.com/rihanna/statuses/408727427687645184">December 5, 2013</a></blockquote>
