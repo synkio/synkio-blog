@@ -513,6 +513,7 @@ header .main {
   font-family: "adelle", Georgia, serif;
   font-weight: 400;
   color: #3c3b3a;
+  margin-bottom: 10px;
 }
 .posts li p {
   margin: 10px 0;
