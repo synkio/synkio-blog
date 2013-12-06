@@ -8,12 +8,9 @@ bio: Ben loves music
 style: one
 ---
 
-Nelson Mandela passed away yesterday (December 5th) at the age of 95 at his home in Houghton, a suburb of Johannesburg<!--excerpt-->.
-
 ![](/images/posts/2013-12-06-nelson-mandela-head.jpg)
 
-![](/images/posts/2013-12-06-nelson-mandela.jpg)
-_Mandela's election victory rally - 1994_
+Nelson Mandela passed away yesterday (December 5th) at the age of 95 at his home in Houghton, a suburb of Johannesburg<!--excerpt-->.
 
 Nelson Mandela loved music, many consider music an important factor in building awareness and facilitating the pressure which resulted in the end of apartheid. Tributes have been been flowing in from around the music world, here are some of the tweets, and some of the best performances, in tribute to the great Mandela.
 
@@ -34,6 +31,9 @@ Nelson Mandela loved music, many consider music an important factor in building 
 
 <script src="//platform.twitter.com/widgets.js">
 </script>
+
+![](/images/posts/2013-12-06-nelson-mandela.jpg)
+_Mandela's election victory rally - 1994_
 
 Some of the musical moments that Nelson Mandela and the anti-apartheid movement inspired.
 
