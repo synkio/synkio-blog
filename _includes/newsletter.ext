@@ -1,6 +1,6 @@
 <form id="newsletter" action="http://synk.io/newsletter" method="post" target="_blank">
 	<div class="inner">
-		<h3>Get Synkio Inspiration in your inbox</h3>
+		<h3>Get Synkio Inspiration in your box</h3>
 		<p>Our regular missive keeps you informed and shares the most inspiring ideas from the Synkio community</p>
 		<div class="complete">
 			<label for="subscribe-email">Your email address</label>
