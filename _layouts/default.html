@@ -9,6 +9,14 @@
 	<!--[if lt IE 9]><script src="http://media.synk.io/vendor/html5shiv.js"></script><![endif]-->
 	<script src="//use.typekit.net/ayl8hmu.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="{{ page.title }}">
+	{% if page.meta_description %}
+		<meta property="og:description" content="{{ page.meta_description }}">
+	{% endif %}
+	{% if page.meta_image %}
+		<meta property="og:image" content="{{ page.meta_image }}">
+	{% endif %}
 </head>
 <body>
 
