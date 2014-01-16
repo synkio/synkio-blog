@@ -6,7 +6,7 @@ allow_comments: "false"
 who: vince
 bio: Vince helps make Synkio
 style: one
-meta_image: http://blog.synk.io/images/posts/2014-06-16-thumbnail.jpg
+meta_image: http://blog.synk.io/images/posts/2014-01-16-thumbnail.jpg
 meta_description: Singing is back in full steam with creative executions only now... it's really good.
 ---
 
