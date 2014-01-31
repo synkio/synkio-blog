@@ -7,10 +7,10 @@ who: ben
 bio: Ben loves music
 style: three
 meta_image: http://i1.ytimg.com/vi/uQB7QRyF4p4/maxresdefault.jpg
-meta_description: We tweeted about this advert a few days ago, but I just couldn't resists posting it - it's got everybody going 'Aww'!
+meta_description: We tweeted about this advert a few days ago, but I just couldn't resist posting it - it's got everybody going 'Aww'!
 ---
 
-We tweeted about this advert a few days ago, but I just couldn't resists posting it - it's got everybody going 'Aww'!<!--excerpt--> Remember last year's ad - 'Brotherhood' featuring Fleetwood Mac? Well this year it's the turn of a 10 week old Golden Retriever, a story of friendship and the iconic Budweiser Clydesdales.
+We tweeted about this advert a few days ago, but I just couldn't resist posting it - it's got everybody going 'Aww'!<!--excerpt--> Remember last year's ad - 'Brotherhood' featuring Fleetwood Mac? Well this year it's the turn of a 10 week old Golden Retriever, a story of friendship and the iconic Budweiser Clydesdales.
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/uQB7QRyF4p4" frameborder="0" allowfullscreen="1">		
 </iframe>
