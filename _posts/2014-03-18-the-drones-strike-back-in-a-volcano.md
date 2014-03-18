@@ -17,4 +17,4 @@ A few weeks back we identified some fantastic drone video from [Eric Sterman's s
 <iframe width="560" height="315" src="//www.youtube.com/embed/0-shWVW1UBc" frameborder="0" allowfullscreen="1">		
 </iframe>
 
-We hope you'll find it as thought-provoking as we did. All it really needs is a custom or licensed soundtrack -  I'm sure the [Glitch Mob](http://www.theglitchmob.com/) would oblige(!)
+We hope you'll find it as thought-provoking as we did. All it really needs is a custom or licensed soundtrack -  I'm sure the Glitch Mob would oblige(!)
