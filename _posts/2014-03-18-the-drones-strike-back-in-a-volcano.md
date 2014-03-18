@@ -19,4 +19,4 @@ A few weeks back we identified some fantastic drone video from [Eric Sterman's s
 
 It starts to get really incredible around 0:16, when the Volcano starts to really go. Without putting yourself in mortal danger, footage like this just wouldn't be possible without drones. They're really changing film-making and we believe the innovation has only just begun.
 
-We hope you'll find it as thought-provoking as we did. All it really needs is a custom or licensed soundtrack -  I'm sure the Glitch Mob would oblige(!)
+We hope you'll find it as thought-provoking as we did. All it really needs is a properly licensed soundtrack -  I'm sure the Glitch Mob would oblige(!)
