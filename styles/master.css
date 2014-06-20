@@ -394,6 +394,11 @@ hr {
   margin: 20px 0;
   border-top: 2px dotted #dfdcd8;
 }
+blockquote {
+  padding: 0 0 0 10px;
+  margin: 0;
+  border-left: 4px solid #c8c2bc;
+}
 .wrap {
   display: block;
   margin-left: auto;
@@ -577,6 +582,13 @@ footer a {
 }
 #post-header.style-five .date {
   color: #b2cfe2;
+}
+#post-header.style-canneslions {
+  background-color: #1f5bad;
+  background-image: url("/images/canneslions.jpg");
+}
+#post-header.style-canneslions .date {
+  color: #a5bdde;
 }
 .pagination {
   color: #acabaa;

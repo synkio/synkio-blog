@@ -42,6 +42,12 @@ hr {
 	border-top: 2px dotted darken(@bg, 10%);
 }
 
+blockquote {
+	padding: 0 0 0 (@unit/2);
+	margin: 0;
+	border-left: 4px solid darken(@bg, 20%);
+}
+
 .wrap {
 	.center-block();
 	.clearfix();
@@ -214,6 +220,13 @@ footer {
 		background-image: url("http://media.synk.io/images/homepage/stairs.jpg");
 		.date {
 			color: mix(#3f88b6, #FFF, 40%);
+		}
+	}
+	&.style-canneslions {
+		background-color: #1f5bad;
+		background-image: url("/images/canneslions.jpg");
+		.date {
+			color: mix(#1f5bad, #FFF, 40%);
 		}
 	}
 }
