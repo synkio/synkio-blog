@@ -27,6 +27,6 @@ Singing the creative messaging can get across key campaign objectives without so
 ### Featured music experts
 
 <div class="featured-talent">
-	<a href="http://synk.io/user/jorge-ramirez-escudero?utm_source=blog&utm_medium=cm&utm_campaign=synkio" target="_blank"><img src="http://blog.synk.io/images/posts/2014-01-16-jorge-ramirez-escudero.jpg"></a>
-	<a href="http://synk.io/user/george-barnett?utm_source=blog&utm_medium=cm&utm_campaign=synkio" target="_blank"><img src="http://blog.synk.io/images/posts/2014-01-16-george-barnett.jpg"></a>
+	<a href="http://synk.io/user/jorge-ramirez-escudero?utm_source=blog&amp;utm_medium=cm&amp;utm_campaign=synkio" target="_blank"><img src="http://blog.synk.io/images/posts/2014-01-16-jorge-ramirez-escudero.jpg"></a>
+	<a href="http://synk.io/user/george-barnett?utm_source=blog&amp;utm_medium=cm&amp;utm_campaign=synkio" target="_blank"><img src="http://blog.synk.io/images/posts/2014-01-16-george-barnett.jpg"></a>
 </div>
