@@ -6,11 +6,11 @@ allow_comments: "false"
 who: ben
 bio: Ben loves music
 style: one
-meta_image: http://blog.synk.io/images/posts/2014-09-30-star-wars.png
+meta_image: http://blog.synk.io/images/posts/2014-09-30-star-wars.jpg
 meta_description: "It's hard to overestimate what a great score does for a movie. We know that. You know that..."
 ---
 
-![A shot of the last scene in Star Wars IV](/images/posts/2014-09-30-star-wars.png)
+![A shot of the last scene in Star Wars IV](/images/posts/2014-09-30-star-wars.jpg)
 
 It's hard to overestimate what a great score does for a movie. We know that. You know that<!--excerpt-->.
 
