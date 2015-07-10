@@ -52,6 +52,6 @@ Accompanying this are countless other artists, all drawing upon similar influenc
 
 The Weeknd’s new album ‘Beauty Behind the Madness’ — is out soon, with Frank Ocean’s album to follow in the year. Until then you can enjoy Miguel’s LA concept ‘Wildheart’, it’s full of the slickest rhythms and the darkest hues of blue you’ll need, all summer long.
 
-Visit [Synkio](http://synk.io/) to get access to the world’s greatest music for your productions. Feel free to suggest additions (or have a groan), in the comments.
+Visit [Synkio](http://synk.io/) to get access to the world’s greatest music for your productions.
 
 _Cross posted from: <https://medium.com/synkio-music/r-b-s-new-wave-a-primer-903a2b437790>_
