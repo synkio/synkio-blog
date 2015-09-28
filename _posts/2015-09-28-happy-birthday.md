@@ -19,11 +19,11 @@ Kind of. Sort of. Not at all!
 
 ![A couple of tasty cakes](/images/posts/2015-09-28-cake.jpg)
 
-You may have heard last week that you can now use 'Happy Birthday' with the original words in your films, adverts and stupid singing birthday cards... for free.
+You may have heard last week that you can now use the song 'Happy Birthday' in your films, adverts and stupid singing birthday cards... for free.
 
 But, that isn't strictly the case. Here's the real deal:
 
-1) The LA judge found that Warner Chappell doesn't have valid rights to the lyrics. Which means if you've been sued for using the lyrics you might be able to get your money back.
+1) An LA judge found that Warner Chappell doesn't have valid rights to the lyrics. Which means if you've been sued for using the lyrics you might be able to get your money back.
 
 2) The lyrics may have another owner.
 
@@ -33,4 +33,4 @@ So, this little ditty is what's known as an orphan and there is no safe way of u
 
 'Happy Birthday to unknown.....'
 
-If you are working on that birthday scene and have any questions or just want to talk music licensing drop us a line <humans@synk.io> or [create a Synkio project](http://synk.io/new-project) and check out all your options.
+If you are working on that birthday scene and have any questions or just want to geek out about music licensing drop us a line <humans@synk.io> or [create a Synkio project](http://synk.io/new-project) and check out all your options.
